@@ -756,6 +756,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: flex-start;
   }
 
   .mobile_shaping {
@@ -765,25 +766,26 @@ footer {
   }
 
   .logo {
-    position: relative;
-    left: -11rem;
     padding: 0px;
     margin-left: 0;
+  }
+
+  .menu{
+    margin-left: 0px;
+    width: 100%;
   }
 
   .menu_signup {
     position: relative;
     top: -80px;
-    left: -30px;
-    margin-right: 2rem;
+    left: -55px;
   }
 
   .left {
-    width: 500px;
+    width: 100%;
     display: flex;
-    position: relative;
+    margin-left: 40px;
     justify-content: space-between;
-    left: 89px;
   }
 
   nav ul {
@@ -792,13 +794,13 @@ footer {
   }
 
   .menu_head {
-    padding: 20px;
+    padding: 20px 50px;
     width: 50%;
   }
 
   .menu_head2 {
     border-bottom: none;
-    padding: 20px;
+    padding: 20px 50px;
     width: 50%;
   }
 
